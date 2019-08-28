@@ -4,7 +4,7 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.37-bin.jar" sourcepath="E:/software/soruceCode/depend/输入输出/commons-io-2.4.zip"/>
 	<classpathentry kind="lib" path="lib/commons-dbutils-1.6.jar" sourcepath="E:/software/soruceCode/depend/数据库连接/commons-dbutils-1.6/commons-dbutils-1.6-sources.jar"/>
-	<classpathentry kind="lib" path="lib/commons-dbcp-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/commons-dbcp-1.4.jar" sourcepath="E:/software/soruceCode/depend/数据库连接/commons-dbcp-1.4/commons-dbcp-1.4-sources.jar"/>
 	<classpathentry kind="lib" path="lib/commons-pool-1.5.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
