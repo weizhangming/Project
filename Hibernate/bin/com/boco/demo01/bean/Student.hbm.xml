@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2019-9-1 20:37:52 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.boco.demo01.bean.Student" table="STUDENT">
+        <id name="studentId" type="java.lang.Integer">
+            <column name="STUDENTID" />
+            <generator class="native" />
+        </id>
+        <property name="studentName" type="java.lang.String">
+            <column name="STUDENT_NAME" />
+        </property>
+        <property name="studentCode" type="java.lang.String">
+            <column name="STUDENT_CODE" />
+        </property>
+        <property name="password" type="java.lang.String">
+            <column name="PASSWORD" />
+        </property>
+        <property name="age" type="java.lang.Integer">
+            <column name="AGE" />
+        </property>
+    </class>
+</hibernate-mapping>
