@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2019-9-14 10:44:10 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.boco.Hibernate.bean.Customer" table="CUSTOMER">
+        <id name="customerId" type="java.lang.Integer">
+            <column name="CUSTOMER_ID" />
+            <generator class="native" />
+        </id>
+        <property name="customerName" type="java.lang.String">
+            <column name="CUSTOMER_NAME" />
+        </property>
+        <set name="orderSet" table="ORDERS" inverse="true">
+            <key>
+                <column name="CUST_FK" />
+            </key>
+            <one-to-many class="com.boco.Hibernate.bean.Order" />
+        </set>
+    </class>
+</hibernate-mapping>
